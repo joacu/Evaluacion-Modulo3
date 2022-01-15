@@ -21,7 +21,7 @@ function ingreso(){
 function tabla(){
     
     var req=new XMLHttpRequest();
-    req.open("GET","modificar.html",true);
+    req.open("GET","cambiar.html",true);
     req.onreadystatechange=function(aEvt){
         if (req.readyState==4){
             if (req.status==200){
@@ -227,4 +227,3 @@ function eliminar() {
     }
  mostrar();  
     }
-    
