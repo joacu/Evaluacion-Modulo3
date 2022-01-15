@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Evaluacion modulo 3</title>
+</head>
+<body>
+    
+    <div class="container p-5 my-3 border" style="text-align: left;">
+        <h3 class="text-left text-dark">Venta de producto</h3>
+        <div class="row">
+            <div class="col-4">
+                <label class="h6 form-label valor-ca" for="valor">Producto</label>
+                <input type="text" name="nombre" id="product" class="form-control valor-ca" placeholder="Ingrese Producto">
+
+                <label class="h6 form-label" for="cantidad">Cantidad</label>
+                <input class="form-control" type="number" name="cantidad" id="cantiproduct" min="1" max="100" placeholder="Ingrese Cantidad">
+
+                <label class="h6 form-label valor-ca" for="valor">Cupon de descuento</label>
+                <input type="number" name="valor" id="descuento" class="form-control valor-ca" placeholder="Ingrese % de descuento">
+            </div>
+            
+            <div>
+                <button onclick="descontar();" class="btn btn-primary text-white btn-submit" >Confirmar Compra y Generar boleta</button>
+            </div>
+        </div>
+
+</body>
+</html>
